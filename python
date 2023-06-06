@@ -1,0 +1,40 @@
+"import tkinter as tk"
+import time
+import os
+
+Linea_1 = "\n application de gestion de QCM:\n"
+Linea_2 = "-------------------------------------------\n"
+Linea_3 = "menu principal\n"
+Linea_4 = "-------------------------------------------\n"
+Linea_5 = "mode professeur\n"
+Linea_6 = "mode eleve\n"
+Linea_7 = "quitter l'appli\n"
+Menu_fix = Linea_1 + Linea_2 + Linea_3 + Linea_4 + Linea_5 + Linea_6 + Linea_7  
+print(Menu_fix)
+
+choix = int(input("entrez votre choix: mode professeur; mode eleve; quitter l'appli "))
+if choix == "mode professeur":
+      Linea_1 = "\napplication de gestion de QCM:\n"
+      Linea_2 = "-------------------------------------------\n"
+      Linea_3 = "mode professeur\n"
+      Linea_4 = "-------------------------------------------\n"
+      Linea_5 = "1 :créer un QCM\n"
+      Linea_6 = "2 : créer un copte éleve \n"
+      Linea_7 = "3 : consulter les évaluations des élèves\n"
+      Linea_8 = "4 : quitter le mode professeur\n"
+      choix = Linea_1 + Linea_2 + Linea_3 + Linea_4 + Linea_5 + Linea_6 + Linea_7 + Linea_8 
+      print(choix)
+else:
+	
+	if choix == "mode eleve":
+      Linea_1 = "\napplication de gestion de QCM:\n"
+      Linea_2 = "-------------------------------------------\n"
+      Linea_3 = "mode élève\n"
+      Linea_4 = "-------------------------------------------\n"
+      Linea_5 = "1 :connextion\n"
+      Linea_6 = "2 : QCM\n"
+      Linea_7 = "4 : quitter le mode élève\n"
+      choix = Linea_1 + Linea_2 + Linea_3 + Linea_4 + Linea_5 + Linea_6 + Linea_7  
+      print(choix)
+
+        
